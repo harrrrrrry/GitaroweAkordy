@@ -8,12 +8,13 @@
     
 }
 #sc1{
+    border-radius: 2px;
     background-image: url('guitar.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 15px;
+    margin: 0px;
     
     height: 100vh;
 }
