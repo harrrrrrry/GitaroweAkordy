@@ -1,16 +1,24 @@
 h1{
     text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
 }
 #sc1{
     margin: 15px;
+    background-color: gray;
+    height: 100vh;
 }
-#pios{
-    float:left;
-    margin:auto;
-    width: 100%;
+
+#m_click{
+
+    border-radius: 22%;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    display:block;
 }
-#chods{
-    float:left;
-    margin:auto;
-    width: 100%;
+
+#m_block{
+    margin:20px;
 }
