@@ -20,11 +20,11 @@
 }
 
 #m_click{
-
+    background-image: url('oak.jpg');
     border-radius: 22%;
     margin: auto;
     width: 50%;
-    border: 2px solid rgb(102,51,0);
+    border: 2px solid rgba(102,51,0,0.5);
     padding: 10px;
     display:block;
 }
