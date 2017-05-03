@@ -8,6 +8,7 @@
     
 }
 #sc1{
+    height: 100vh;
     border-radius: 2px;
     background-image: url('guitar.jpg');
     -webkit-background-size: cover;
@@ -16,7 +17,7 @@
     background-size: cover;
     margin: 0px;
     
-    height: 100vh;
+    
 }
 
 #m_click{
