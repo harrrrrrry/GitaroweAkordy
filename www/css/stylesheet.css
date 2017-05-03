@@ -1,12 +1,4 @@
-#title_1{
-    position:block;
-    padding-top: 40px;
-    padding-bottom: 25px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: lighter;
-    
-}
+
 #sc1{
     height: 100vh;
     border-radius: 2px;
@@ -20,16 +12,65 @@
     
 }
 
+#sc2{
+    display:block;
+    filter: grayscale(25%);
+    height: 100vh;
+    border-radius: 2px;
+    background-image: url('guitar.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    
+    
+}
+
+#title_1{
+    position:block;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
 #m_click{
     background-image: url('oak.jpg');
     border-radius: 22%;
     margin: auto;
-    width: 50%;
+    width: 70%;
     border: 2px solid rgba(102,51,0,0.5);
     padding: 10px;
     display:block;
 }
 
+#m_click2{
+    background-color: white;
+    border-radius: 2px;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+    height:150px;
+}
+.m_click3{
+    float:left;
+    background-color: black;
+    border-radius: 2px;
+    margin: auto;
+    width: 30%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+    height:50px;
+}
+
 #m_block{
     margin:20px;
+}
+m_block2{
+    margin:5px;
 }
