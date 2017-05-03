@@ -3,7 +3,7 @@ function init() {
 }
 
 function onDeviceReady() {
-	navigator.notification.beep(2);
+	
 	deviceInfo();
 }
 
