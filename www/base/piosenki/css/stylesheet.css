@@ -74,3 +74,12 @@
 #m_block2{
     margin:5px;
 }
+#z_box{
+ text-align: center;
+ background-color: rgba(50,50,50,0.2);
+}
+#r_box{
+    background-color: rgba(50,50,50,0.4);
+    text-align: center;
+margin:40px;
+}
