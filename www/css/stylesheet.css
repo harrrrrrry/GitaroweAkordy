@@ -2,11 +2,7 @@
 #sc1{
     height: 100vh;
     border-radius: 2px;
-    background-image: url('guitar.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
     margin: 0px;
     
     
@@ -17,11 +13,7 @@
     filter: grayscale(25%);
     height: 100vh;
     border-radius: 2px;
-    background-image: url('guitar.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
     margin: 0px;
     
     
