@@ -2,11 +2,7 @@
 .bgwidth { width: 100%; }
 .bgheight { height: 100%; }
 #sc0{
-background: url(./img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background-color: white;
 }
 #sc1{
     height: 100vh;
