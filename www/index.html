@@ -11,17 +11,18 @@
 		
 	</head>
 	<body onload="init()">
-		<div id="sc1">
+		<div id="sc0">
 			<div data-role="page" id="pageone">
 		  <div data-role="header">
 			<h1>Gitarowe Akordy</h1>
 		  </div>
-		
+		<div id="cl1"></div>
 		<p id="dp"></p>
 		
 <a class="ui-btn ui-corner-all ui-shadow m_click" href="#songs">Piosenki</a></p>
-
 <a class="ui-btn ui-corner-all ui-shadow m_click" href="#chords">Akordy</a></p>
+		<div id="cl1"></div>
+<a class="ui-btn ui-corner-all ui-shadow m_click" href="#about">About</a></p>
 		</div>
 				 <!-- Start Songs -->
 <div data-role="page" id="songs">
@@ -188,8 +189,19 @@
 				<img src="./img/bdur.gif" alt="2" >
 			</div>
 		</div>
-		</div>
+		
 		<!-- END Chords -->
+					 <!-- Start about -->
+<div data-role="page" id="about">
+
+	<div data-role="header">
+
+<h1>About</h1>
+            
+		  </div>
+		
+		</div>
+		 <!-- End about -->
 	</body>
 </html>
 <a class="ui-shadow" href="#gdur" onclick="deviceInfo()">G</a>
@@ -201,3 +213,4 @@
 <a class="ui-shadow" href="#edur" onclick="deviceInfo()">E</a>
 <a class="ui-shadow" href="#cdur" onclick="deviceInfo()">C</a>
 <a class="ui-shadow" href="#fdur" onclick="deviceInfo()">F</a>
+<a class="ui-shadow" href="#bdur" onclick="deviceInfo()">B</a>

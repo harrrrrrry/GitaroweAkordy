@@ -1,4 +1,10 @@
-
+body{
+background: url(./img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #sc1{
     height: 100vh;
     border-radius: 2px;
@@ -18,7 +24,9 @@
     
     
 }
-
+#cl1{
+    height:90px;
+}
 #title_1{
     position:block;
     padding-top: 40px;
