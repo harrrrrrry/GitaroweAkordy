@@ -1,0 +1,103 @@
+
+#sc1{
+    height: 100vh;
+    border-radius: 2px;
+
+    margin: 0px;
+    
+    
+}
+
+#sc2{
+    display:block;
+    filter: grayscale(25%);
+    height: 100vh;
+    border-radius: 2px;
+
+    margin: 0px;
+    
+    
+}
+
+#title_1{
+    position:block;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+#m_click{
+    background-image: url('oak.jpg');
+    border-radius: 22%;
+    margin: auto;
+    width: 70%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+}
+.m_click{
+    background-image: url('oak.jpg');
+    border-radius: 22%;
+    margin: auto;
+    width: 70%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+}
+#m_click2{
+    background-color: white;
+    border-radius: 2px;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+    height:150px;
+}
+.m_click3{
+    float:left;
+    background-color: black;
+    border-radius: 2px;
+    margin: auto;
+    width: 20%;
+    border: 2px solid rgba(102,51,0,0.5);
+    padding: 10px;
+    display:block;
+    height:50px;
+}
+
+#m_block{
+    margin:20px;
+}
+#m_block2{
+    margin:5px;
+}
+
+#title_1{
+    position:block;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+#z_box{
+ text-align: center;
+ background-color: rgba(50,50,50,0.2);
+}
+#r_box{
+    background-color: black;
+    text-align: center;
+margin:10px;
+}
+#s_thame{
+    background-color: rgba(50,50,50,0.8);
+    color:white;
+    
+}
+a {
+    color: yellow;
+}
