@@ -9,6 +9,7 @@
     <author href="" email="szymon.d.koprek@gmail.com">
         Szymon Koprek
 	</author>
+    <preference name="loadUrlTimeoutValue" value="700000" />
 	<platform name="android" />
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
