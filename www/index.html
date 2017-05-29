@@ -8,14 +8,16 @@
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
         <link rel="stylesheet" href="./css/stylesheet.css"/>
+		<link rel="stylesheet" href="./css/stylesheet_index.css"/>
 		
 
 		
 	</head>
 	<body onload="init()">
-		
+<div id="tha" style="background-color: black;">		
 		<div id="sc1">
-			<img src="img/bg.jpg" id="bg" alt="">
+			<img src="img/w_bg.jpg" id="bg" alt="">
+
 			<div data-role="page" id="pageone">
 		  <div data-role="header">
 			<h1>Gitarowe Akordy</h1>
@@ -27,26 +29,17 @@
 <a class="ui-btn ui-corner-all ui-shadow m_click" href="#chords">Akordy</a></p>
 		<div id="cl1"></div>
 <!-- left menu -->
-		  
-      
-<a href="#lPanel" class="ui-btn ui-corner-all ui-shadow m_click">Open Panel</a>
-  
-
+<a href="#lPanel" class="ui-btn ui-corner-all ui-shadow m_click">Info</a>
 <!-- left menu-->
+</div>
 
-		</div>
+
+
 <!-- Start Songs -->
 <div data-role="page" id="songs">
-
-	<div data-role="header">
-
-
-
-		
-
-<h1>Piosenki</h1>
-            
-		  </div>
+	<div data-role="header">	
+<h1>Piosenki</h1>          
+	</div>
 		<p id="dp"></p>
 		<div id="m_block2">
 		<form method="get" action="./base/piosenki/farben_lehre_erato.html">
@@ -85,6 +78,9 @@
     		<button id="m_click2" type="submit"><b>Universe - Wołanie przez ciszę</b></button>
 		</form>
 		</div>
+				  <div data-role="footer" data-position="fixed">
+			<h1>(c) </h1>
+		  </div> 
 		</div>
 <!-- End Songs -->
 <!-- Start Chords -->
@@ -208,15 +204,18 @@
 	   <div data-role="header">
     <h2>About</h2>
 	   </div>
-Informajce:
+<div>Informajce:</div>
 	    <div data-role="header">
 	<h2>Connection</h2>
 	    </div>
 	<input type="button" onclick="checkConnection()" value="Check Connection">
-    
+    		  <div data-role="footer" data-position="fixed">
+			<h1>(c) </h1>
+		  </div> 
 
   </div>
 <!-- End panel -->
+</div>
 	</body>
 </html>
 
