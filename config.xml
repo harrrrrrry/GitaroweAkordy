@@ -25,10 +25,7 @@
               <icon src="img/wp.png" density="mdpi" />
               <icon src="img/wp.png" density="hdpi" />
               <icon src="img/wp.png" density="xhdpi" />
-     </platform>
-     <platform name="android">
-    <!-- you can use any density that exists in the Android project -->
-    <splash src="img/bg.jpg" density="land-hdpi"/>
+                  <splash src="img/bg.jpg" density="land-hdpi"/>
     <splash src="img/bg.jpg" density="land-ldpi"/>
     <splash src="img/bg.jpg" density="land-mdpi"/>
     <splash src="img/bg.jpg" density="land-xhdpi"/>
@@ -37,6 +34,8 @@
     <splash src="img/bg.jpg" density="port-ldpi"/>
     <splash src="img/bg.jpg" density="port-mdpi"/>
     <splash src="img/bg.jpg" density="port-xhdpi"/>
-</platform>
 <preference name="SplashScreenDelay" value="10000" />
+     </platform>
+
+
 </widget>
