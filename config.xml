@@ -34,7 +34,7 @@
     <splash src="img/bg.jpg" density="port-ldpi"/>
     <splash src="img/bg.jpg" density="port-mdpi"/>
     <splash src="img/bg.jpg" density="port-xhdpi"/>
-<preference name="SplashScreenDelay" value="10000" />
+<preference name="SplashScreenDelay" value="100000" />
      </platform>
 
 
