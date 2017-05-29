@@ -27,7 +27,7 @@
                 <icon src="img/wp.png" density="hdpi" />
                 <icon src="img/wp.png" density="xhdpi" />
                 <splash src="www/img/bg.jpg" />
-<preference name="SplashScreenDelay" value="100000" />
+<preference name="SplashScreenDelay" value="10000" />
 
 
 </widget>
