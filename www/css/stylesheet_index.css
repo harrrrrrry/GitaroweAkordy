@@ -18,7 +18,7 @@ background-color:white;
 
 }
 .ui-page {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.20);
     background-image: url('bnw_wood.jpg');
 }
 #sc2{
