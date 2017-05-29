@@ -26,6 +26,7 @@
 		<p id="dp"></p>
 		
 <a class="ui-btn ui-corner-all ui-shadow m_click" href="#songs">Piosenki</a></p>
+<a class="ui-btn ui-corner-all ui-shadow m_click" href="#tabu">Tabulatura</a></p>
 <a class="ui-btn ui-corner-all ui-shadow m_click" href="#chords">Akordy</a></p>
 		<div id="cl1"></div>
 <!-- left menu -->
@@ -83,6 +84,23 @@
 		  </div> 
 		</div>
 <!-- End Songs -->
+<!-- Start Tabu-->
+<div data-role="page" id="tabu">
+	<div data-role="header">	
+<h1>Tabulatura</h1>          
+	</div>
+		<p id="dp"></p>
+		<div id="m_block2">
+		<form method="get" action="./base/tabu/lthame.html">
+    		<button id="m_click2" type="submit"><b>Death Note - L thame</b></button>
+		</form>
+		</div>
+		
+				  <div data-role="footer" data-position="fixed">
+			<h1>(c) </h1>
+		  </div> 
+		</div>
+<!-- End Tabu -->
 <!-- Start Chords -->
 <div data-role="page" id="chords">
 
@@ -201,14 +219,15 @@
 <!-- Start panel -->
 					 
   <div data-role="panel" id="lPanel">
-	   <div data-role="header">
-    <h2>About</h2>
-	   </div>
-<div>Informajce:</div>
 	    <div data-role="header">
 	<h2>Connection</h2>
 	    </div>
 	<input type="button" onclick="checkConnection()" value="Check Connection">
+	<div data-role="header">
+    <h2>About</h2>
+	   </div>
+<p><div id="info"><pre><p>	Informajce:
+				Autor: Szymon Koprek</div></p>
     		  <div data-role="footer" data-position="fixed">
 			<h1>(c) </h1>
 		  </div> 

@@ -111,3 +111,10 @@ margin:10px;
 a {
     color: yellow;
 }
+
+#info{
+background-color: rgba(100,170,243,0.90);
+color:white;
+font-weight: 500;
+
+}
