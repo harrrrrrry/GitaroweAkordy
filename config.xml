@@ -10,6 +10,10 @@
         Szymon Koprek
 	</author>
     <preference name="loadUrlTimeoutValue" value="700000" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="1" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*"  launch-external="yes" />
 	<platform name="android" />
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
