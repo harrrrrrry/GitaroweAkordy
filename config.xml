@@ -35,7 +35,7 @@
     <splash src="img/bg.jpg" density="port-mdpi"/>
     <splash src="img/bg.jpg" density="port-xhdpi"/>
 <preference name="SplashScreenDelay" value="10000" />
-     </platform>
+
 
 
 </widget>
